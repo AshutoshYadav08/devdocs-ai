@@ -1,0 +1,26 @@
+[
+    {
+        "question": "What database is used by the Contest Compiler?",
+        "expected_sources": ["database.txt"]
+    },
+    {
+        "question": "How is authentication handled?",
+        "expected_sources": ["authentication.txt"]
+    },
+    {
+        "question": "What is Redis used for?",
+        "expected_sources": ["database.txt", "architecture.txt"]
+    },
+    {
+        "question": "How are code submissions executed?",
+        "expected_sources": ["architecture.txt", "judge0.txt"]
+    },
+    {
+        "question": "Which service executes submitted code?",
+        "expected_sources": ["judge0.txt", "architecture.txt"]
+    },
+    {
+        "question": "How is the leaderboard updated?",
+        "expected_sources": ["architecture.txt", "judge0.txt"]
+    }
+]
