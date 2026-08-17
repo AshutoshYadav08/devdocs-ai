@@ -1,0 +1,7 @@
+The frontend of Contest Compiler is built using Next.js and TypeScript.
+
+The frontend can be deployed using Vercel.
+
+The backend provides APIs for authentication, contest management, problem management, submissions, and leaderboard functionality.
+
+The application uses environment variables for configuration and sensitive credentials.

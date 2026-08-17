@@ -1,0 +1,12 @@
+The Contest Compiler uses PostgreSQL as its primary relational database.
+
+PostgreSQL stores users, contests, problems, submissions, and leaderboard information.
+
+Contest data is persisted in PostgreSQL to ensure durability.
+
+Redis is used as a caching layer for frequently accessed contest information and leaderboard data.
+
+The application does not use Redis as the primary database.
+
+Redis also reduces the number of repeated reads
+from PostgreSQL for frequently requested data.

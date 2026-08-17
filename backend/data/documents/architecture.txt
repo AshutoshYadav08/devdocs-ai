@@ -1,0 +1,27 @@
+Contest Compiler is a web-based competitive programming platform.
+
+The system allows organizers to create coding contests and participants
+to join contests using a unique contest code.
+
+The frontend is built using Next.js and TypeScript.
+
+The backend provides REST APIs for authentication, contest management,
+problem management, code submissions, and leaderboard management.
+
+PostgreSQL is used as the primary relational database.
+
+Redis is used for caching frequently accessed contest information
+and leaderboard data.
+
+When a participant submits code, the backend validates the submission
+and sends the source code and test cases to the Judge0 execution service.
+
+Judge0 compiles and executes the submitted code in a sandboxed environment.
+
+The execution result is returned to the backend and stored as a submission.
+
+The leaderboard is updated after a successful submission.
+
+Authentication is handled using Clerk.
+
+The application frontend is deployed using Vercel.

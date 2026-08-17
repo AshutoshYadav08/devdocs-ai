@@ -1,0 +1,9 @@
+Authentication is handled using Clerk.
+
+Users must authenticate before accessing protected contest functionality.
+
+The frontend obtains the authenticated user's identity through Clerk.
+
+The backend validates authentication information before processing protected API requests.
+
+Authentication is required for creating contests, joining contests, and submitting code.

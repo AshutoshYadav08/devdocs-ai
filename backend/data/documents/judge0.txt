@@ -1,0 +1,11 @@
+Judge0 is used as the code execution service.
+
+When a participant submits code, the backend validates the submission.
+
+The backend sends the source code, programming language, and test case information to Judge0.
+
+Judge0 compiles and executes the submitted code in a sandboxed environment.
+
+The execution result is returned to the backend.
+
+The backend stores the submission result and updates the leaderboard.
